@@ -8,8 +8,8 @@
     --transition-speed: 600ms;
   }
 
-.line{
-  margin-top: 12rem;
+.home{
+  margin-top: 10rem;
   font-size: 2rem;
 }
   
@@ -26,24 +26,16 @@ main {
 
 
 .desc1{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-left: 0.5rem;
   margin-bottom: 12rem;
 }
 
-.desc2{
+.about{
   font-size: 1.2rem;
   margin-left: 0.5rem;
-}
-
-.desc3{
-  font-size: 1rem;
-  margin-left: 0.5rem;
-}
-
-.desc4{
-  font-size: 1.2rem;
-  margin-left: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
 }
 
 .navbar {
@@ -179,7 +171,13 @@ main {
       width: min(90%, 70rem);
       margin: 0 auto;
     }
-    
+
+    .container span {
+      color: hsl(0, 0%, 50%);
+      font-size: .9em;
+      font-weight: 500;
+    }
+
     .bg-dark {
       background-color: var(--clr-primary-600);
       color: var(--clr-neutral-100);
@@ -191,15 +189,47 @@ main {
     
     .flow-content > * + * {
       margin-top: 1rem;
+      font-family: Arial, Helvetica, sans-serif ;
+      font-size: 1rem;
     }
     
     .split {
       display: flex;
       flex-direction: column;
-      /* gap: 2em; */
     }
     
     .split > * + * {
-      margin: 2em 0 0 0;
+      margin: 1em 0 0 0;
     }
+    @media (min-width: 50em) {
+      .split {
+        flex-direction: row;
+      }
+    
+      .split > * {
+        flex-shrink: 1;
+        flex-basis: 100%;
+      }
+    
+      .split > * + * {
+        margin: 0 0 0 2em;
+      }
+    
+      .big-column {
+        flex-basis: 250%;
+      }
+    }
+    
+    /* components */
+    
+    .widgets {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .widget {
+      padding: 1em;
+      flex: 1 1 200px;
+    }
+    
   }
