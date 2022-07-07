@@ -6,6 +6,7 @@
     --bg-primary: #4B82B3;
     --bg-secondary: #5d7e9c;
     --transition-speed: 600ms;
+    overflow: hidden;
   }
 
 
@@ -77,7 +78,7 @@ main {
     position: fixed;
     background-color:#2B4A66;
     transition: width 600ms ease;
-    overflow: scroll;
+    overflow: hidden;
   }
    
   /* navbar grid shape content */
