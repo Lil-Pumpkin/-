@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Welcome Home</title>
+    <link rel="icon" type="img/bear.png" href="img/bear (1).png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
@@ -90,13 +92,21 @@
       <div class="menu" id="menu">
 
         <div class="home">
-          <div class="name1"></div><h1  >Hello <br> My Name Is <br> Aris Cahyadi </h1></div> 
-        </div>
+          <div class="name1"><h1 >Hello <br> My Name Is </h1>
+            <div class="scroller">
+              <span>
+                Kumabear <br>
+                Aris Cahyadi <br>
+                Lil Pumpkin <br>
+              </span>
+            </div>  
+          </div>
+        </div> 
         <div class="desc">
           <div class="desc1"><p>Front-End Developer <br>& Pixel Artist Designer</p></div>
         </div>
   
-        <section class="bg-light features">
+        <section class="bg-light features" data-aos="fade-right">
           <div class="container">
             <div class="split flow-content">
               <div class="about">
@@ -148,7 +158,11 @@
     </div>
   </div>
 
-  
-    
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>  
 </body>
+
 </html>
