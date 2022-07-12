@@ -6,12 +6,19 @@
     --bg-primary: #4B82B3;
     --bg-secondary: #5d7e9c;
     --transition-speed: 600ms;
+    background-image: url(/img/1.jpg);
+    background-repeat: no-repeat;
+    background-color: aliceblue;
   }
 
-
 .home{
+  margin-top: 0px;
+}
+
+.name1{
   margin-top: 10rem;
   font-size: 2rem;
+  color: white;
 }
 
 /* name scrolling animation */
@@ -24,7 +31,7 @@
   line-height: 1.2em;
   position: relative;
   overflow: hidden;
-  width: 10em;
+  width: 6em;
 }
 
 .scroller > span {
@@ -61,7 +68,7 @@ main {
 .desc1{
   font-size: 1.5rem;
   margin-left: 0.5rem;
-  margin-bottom: 12rem;
+  margin-bottom: 19rem;
 }
 
 .about{
@@ -211,18 +218,18 @@ main {
     }
 
     .container span {
-      color: hsl(0, 0%, 50%);
+      color: hsl(0, 1%, 28%);
       font-size: .9em;
       font-weight: 500;
     }
-
+    
     .bg-dark {
       background-color: var(--clr-primary-600);
       color: var(--clr-neutral-100);
     }
     
     .bg-light {
-      background-color: #eee;
+      background-color: rgba(238, 238, 238, 0.911);
     }
     
     .flow-content > * + * {
@@ -270,5 +277,24 @@ main {
       flex: 1 1 200px;
     }
     
-    
+    .pending{
+      text-align: center;
+      width: 11rem;
+      /* max-width: 12rem;
+      max-height: 12rem;
+       */
+    }
+
+
+    footer {
+      margin-top: -30px;
+      background-color: black;
+      margin-bottom: -100px;
+    }
+
+    footer p{
+      font-size: 2rem;
+      color: aliceblue;
+      text-align: center;
+    }
   }
