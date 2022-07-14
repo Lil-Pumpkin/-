@@ -6,9 +6,6 @@
     --bg-primary: #4B82B3;
     --bg-secondary: #5d7e9c;
     --transition-speed: 600ms;
-    background-image: url(/img/1.jpg);
-    background-repeat: no-repeat;
-    background-color: black;
   }
 
 .home{
@@ -18,7 +15,7 @@
 .name1{
   margin-top: 10rem;  
   font-size: 2rem;
-  color: black;
+  color: white;
 }
 
 /* name scrolling animation */
