@@ -3,4 +3,4 @@ AOS.init({
   });
   AOS.init({
     delay: 1000
-  });
+  }); 
